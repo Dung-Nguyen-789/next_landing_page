@@ -94,7 +94,7 @@ export default function Home() {
             height={724}
             width={1624}
             poster="https://res.cloudinary.com/dhgck7ebz/image/upload/f_auto,c_limit,w_1017,q_auto/Homepage/Animations/Frames/Create_Community_Banner_Left_Frame"
-            className="hidden h-[436px] w-fit translate-x-10 sm:block lg:-translate-x-2 xl:absolute xl:left-[-120px] xl:translate-x-0 2xl:left-[-80px]"
+            className="hidden h-[436px] w-fit translate-x-10 sm:block lg:-translate-x-2 opacity-100 sm:opacity-50 xl:opacity-100 absolute sm:left-[-200px] xl:left-[-120px] xl:translate-x-0 2xl:left-[-80px]"
           >
             <source
               src="https://res.cloudinary.com/dhgck7ebz/video/upload/v1/Homepage/Animations/Create_Community_Banner_Left_HEVC.mov"
@@ -117,7 +117,7 @@ export default function Home() {
             height={1063}
             width={776}
             poster="https://res.cloudinary.com/dhgck7ebz/image/upload/f_auto,c_limit,w_1063,q_auto/Homepage/Animations/Frames/Create_Community_Banner_Right_Frame"
-            className="h-[436px] w-fit translate-x-0 scale-150 sm:m-0 sm:-translate-x-44 sm:scale-100 lg:-translate-x-28 xl:absolute xl:right-[-140px] xl:m-0 xl:translate-x-0 2xl:right-[-100px]"
+            className="h-[436px] w-fit translate-x-0 scale-150 sm:scale-100 sm:right-[-250px] opacity-100 sm:opacity-50 xl:opacity-100 lg:-translate-x-28 absolute xl:right-[-140px] xl:m-0 xl:translate-x-0 2xl:right-[-100px]"
           >
             <source
               src="https://res.cloudinary.com/dhgck7ebz/video/upload/v1/Homepage/Animations/Create_Community_Banner_Right_HEVC.mov"
@@ -132,22 +132,21 @@ export default function Home() {
               type="video/webm"
             />
           </video>
-          <h3 className="text-white text-7xl font-bold text-center tracking-tight">
+          <h3 className="text-white text-7xl font-bold text-center tracking-tight z-10">
             Take back control
           </h3>
-          <p className="text-white text-lg font-light text-center tracking-tight">
+          <p className="text-white text-lg font-light text-center tracking-tight z-10">
             Don’t give Discord or Telegram power over your community.
           </p>
           <Button
             type="button"
             title="Set your community free"
-            variant="text-white mt-6 border rounded-xl py-2 text-sm font-regular border-slate-600"
+            variant="text-white mt-6 border rounded-xl py-2 text-sm font-regular border-slate-600 z-10"
           />
         </div>
       </section>
       <SectionContainer
         buttonTitle={"Messenger"}
-        // biome-ignore lint/style/useSelfClosingElements: <explanation>
         buttonIcon={
           <svg
             color="rgba(113 64 253 / 100%)"

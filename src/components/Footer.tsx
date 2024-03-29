@@ -4,13 +4,13 @@ import Link from "next/link";
 import React from "react";
 import { FaDiscord, FaYoutube, FaGithub } from "react-icons/fa";
 
+const gridCols = NAV_LINKS.length + 1;
+
 export default function Footer() {
   return (
     <footer className="footer w-full flex flex-col items-center justify-center bg-[#09101c]">
       <div
-        className={`w-full hidden footer_link pt-20 md:grid grid-cols-3 md:grid-cols-${
-          NAV_LINKS.length + 1
-        } items-start`}
+        className={`w-full hidden footer_link pt-20 md:grid md:grid-cols-${gridCols} items-start`}
       >
         <Link
           href={"/"}

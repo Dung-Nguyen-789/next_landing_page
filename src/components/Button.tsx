@@ -20,11 +20,13 @@ export default function Button({
     <button
       onClick={onClick}
       type={type}
-      className={`w-auto flex items-center justify-center rounded-full px-4 py-2 gap-1 ${variant} cursor-pointer`}
+      className={`w-auto flex items-center justify-center rounded-full px-4 py-2 gap-1 ${variant}`}
     >
       {!!icon && icon}
       <label
-        className="text-md tracking-tight whitespace-nowrap text-center cursor-pointer"
+        className={
+          "text-md tracking-tight whitespace-nowrap text-center cursor-pointer"
+        }
         htmlFor={title}
       >
         {title}

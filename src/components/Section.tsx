@@ -36,7 +36,7 @@ export default function SectionContainer(props: SectionContainerProps) {
           variant="border mt-2 px-4 py-2 rounded-xl"
         />
       </div>
-      <div className="card-grid relative grid grid-cols-1 gap-3 xl:grid-cols-3 xl:gap-5">
+      <div className="card-grid relative grid grid-cols-1 gap-3 md:grid-cols-3 xl:gap-5">
         {props.children}
       </div>
     </section>

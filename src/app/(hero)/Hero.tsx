@@ -30,7 +30,7 @@ export default function Hero() {
         <Button
           title="Token-Gated Community Management in Status 2.0"
           type={"button"}
-          variant={"px-1 py-1 pr-4 rounded-full border"}
+          variant={"pl-2 py-1 pr-4 rounded-full border"}
           icon={
             <span className="rounded-full bg-black px-2 py-1 font-semibold text-sm text-white">
               NEW

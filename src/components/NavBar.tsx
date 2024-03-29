@@ -23,7 +23,7 @@ function NavBar() {
       <Button
         type="button"
         title="Sign up for early access"
-        variant="text-white bg-slate-800"
+        variant="hidden xl:block text-white bg-slate-800"
       />
     </nav>
   );
